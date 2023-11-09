@@ -90,9 +90,7 @@ public class Ejercicio04 {
 					}
 					
 					// Comprobamos que el número no sea una decena (10,20,30...) para asignarle "y"
-					if (primeraCifra>2 && segundaCifra!=0) {
-						numTxt += " y ";
-					}
+					if (primeraCifra>2 && segundaCifra!=0) numTxt += " y ";
 					
 					// Asignamos el valor final sumando el valor anterior de la cadena con los números de 0 y 9
 					numTxt += switch (segundaCifra) {
