@@ -47,7 +47,7 @@ public class Ejercicio07 {
 		try {
 			
 			// Le pedimos la hora y lo guardamos
-			System.out.println("Introduce la hor");
+			System.out.println("Introduce la hora");
 			hora = sc.nextInt();
 			
 			// Le pedimos los minutos y lo guardamos

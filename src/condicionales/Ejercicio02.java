@@ -12,8 +12,8 @@ public class Ejercicio02 {
 	 * 
 	 * PRUEBA 2
 	 * VALOR DE ENTRADA: 29627264K
-	 * RESULTADO ESPERADO: NO INTRODUZCA LA LETRA
-	 * VALOR ESPERADO: NO INTRODUZCA LA LETRA
+	 * RESULTADO ESPERADO: DATO ERRONEO
+	 * VALOR ESPERADO: DATO ERRONEO
 	 * 
 	 * PRUEBA 3
 	 * VALOR DE ENTRADA: 23000000
@@ -76,7 +76,7 @@ public class Ejercicio02 {
 			
 			
 		} catch(InputMismatchException e) {
-			System.out.println("No introduzca la letra");
+			System.out.println("Dato erróneo");
 		}
 		
 		// Cerramos el Scanner
