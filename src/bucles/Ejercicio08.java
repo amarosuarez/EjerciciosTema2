@@ -5,6 +5,24 @@ import java.util.Scanner;
 
 public class Ejercicio08 {
 	
+	/*
+	 * PRUEBA 1
+	 * VALOR DE ENTRADA: 21/10/20/30/0
+	 * RESULTADO ESPERADO: 4 INTRODUCIDOS/ 1 FALLO
+	 * RESULTADO OBTENIDO: 4 INTRODUCIDOS/ 1 FALLO
+	 * 
+	 * PRUEBA 2
+	 * VALOR DE ENTRADA: 21E
+	 * RESULTADO ESPERADO: NO INTRODUZCA LETRAS
+	 * RESULTADO OBTENIDO: NO INTRODUZCA LETRAS
+	 * 
+	 * PRUEBA 3
+	 * VALOR DE ENTRADA: 18/40/1/4/33/22/18/0
+	 * RESULTADO ESPERADO: 7 INTRODUCIDOS/ 2 FALLOS
+	 * RESULTADO OBTENIDO: 7 INTRODUCIDOS/ 2 FALLOS
+	 * 
+	 * */
+	
 	public static void main(String[] args) {
 		// Variable donde se almacena el número introducido
 		int numero;
@@ -21,6 +39,7 @@ public class Ejercicio08 {
 		// Creamos el Scanner
 		Scanner sc = new Scanner(System.in);
 		
+		// Comprobamos que no introduzca letras
 		try {
 			// Le pedimos un número y lo guardamos
 			System.out.println("Dime un número inicial");
@@ -41,7 +60,7 @@ public class Ejercicio08 {
 					contadorFallos++;
 					numAnterior=0;
 				} else {
-					// Seteamos el numero anterior con el número introducido
+					// Cambiamos el valor del numero anterior con el número introducido
 					numAnterior=numero;
 				}
 				
